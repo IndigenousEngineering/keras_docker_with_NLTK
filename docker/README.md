@@ -6,7 +6,7 @@ to use:
 
 1) [install docker](https://docs.docker.com/install/ 'https://docs.docker.com/install/')
 2) for gpu support, [install nvidia for docker](https://github.com/NVIDIA/nvidia-docker/blob/master/README.md 'https://github.com/NVIDIA/nvidia-docker/blob/master/README.md')
-3) download [Dockerfile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile'), [theanorc](https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc 'https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc'), and [Makefile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile')
+3) check out the repo (or download [Dockerfile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile'), [theanorc](https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc 'https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc'), and [Makefile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile'))
 4) run `make` from the same directory
 
 #### examples:
