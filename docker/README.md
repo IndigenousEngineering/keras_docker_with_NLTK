@@ -1,3 +1,32 @@
+# neurodivergent keras with nltk
+
+the official keras docker image...but with [nltk](https://www.nltk.org/ 'https://www.nltk.org/') for natural language processing with deep learning.
+
+to use: 
+
+1) [install docker](https://docs.docker.com/install/ 'https://docs.docker.com/install/')
+2) for gpu support, [install nvidia for docker](https://github.com/NVIDIA/nvidia-docker/blob/master/README.md 'https://github.com/NVIDIA/nvidia-docker/blob/master/README.md')
+3) download [Dockerfile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile'), [theanorc](https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc 'https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc'), and [Makefile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile')
+4) run `make` from the same directory
+
+#### examples:
+
+* open a simple, non-gpu jupyter notebook:
+
+`make notebook`
+
+* open a jupyter notebook with cuda gpu support:
+
+`make notebook GPU=0`
+
+* open a gpu-supported jupyter notebook with read/write access to your local machine:
+
+`make notebook GPU=0 DATA=~/`
+
+that's enough to run any notebook in this repo.
+
+### for more information, see the original keras documentation below.
+
 # Using Keras via Docker
 
 This directory contains `Dockerfile` to make it easy to get up and running with
