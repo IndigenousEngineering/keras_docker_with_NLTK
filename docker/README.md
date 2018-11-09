@@ -11,11 +11,11 @@ to use:
 
 #### examples:
 
-* open a simple, non-gpu jupyter notebook:
+* open a simple, non-gpu [jupyter notebook](http://jupyter.org/index.html 'http://jupyter.org/index.html'):
 
 `make notebook`
 
-* open a jupyter notebook with cuda gpu support:
+* open a jupyter notebook with [cuda](https://developer.nvidia.com/about-cuda 'https://developer.nvidia.com/about-cuda') gpu support:
 
 `make notebook GPU=0`
 
@@ -25,7 +25,7 @@ to use:
 
 that's enough to run any notebook in this repo.
 
-### for more information, see the original keras documentation below.
+### for more information, see the original keras documentation below:
 
 # Using Keras via Docker
 
