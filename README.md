@@ -1,4 +1,34 @@
-﻿# Keras: Deep Learning for humans
+# neurodivergent keras with nltk
+
+the official keras docker image...but with [nltk](https://www.nltk.org/ 'https://www.nltk.org/') for natural language processing with deep learning.
+
+to use: 
+
+1) [install docker](https://docs.docker.com/install/ 'https://docs.docker.com/install/')
+2) for gpu support, [install nvidia for docker](https://github.com/NVIDIA/nvidia-docker/blob/master/README.md 'https://github.com/NVIDIA/nvidia-docker/blob/master/README.md')
+3) check out the repo (or download [Dockerfile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Dockerfile'), [theanorc](https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc 'https://github.com/neurodivergent-ai/keras/blob/master/docker/theanorc'), and [Makefile](https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile 'https://github.com/neurodivergent-ai/keras/blob/master/docker/Makefile'))
+4) run `make` from the same directory
+
+#### examples:
+
+* open a simple, non-gpu [jupyter notebook](http://jupyter.org/index.html 'http://jupyter.org/index.html'):
+
+`make notebook`
+
+* open a jupyter notebook with [cuda](https://developer.nvidia.com/about-cuda 'https://developer.nvidia.com/about-cuda') gpu support:
+
+`make notebook GPU=0`
+
+* open a gpu-supported jupyter notebook with read/write access to your local machine:
+
+`make notebook GPU=0 DATA=~/`
+
+that's enough to run any notebook in this repo.
+
+### for more information, see the original keras documentation below:
+
+
+# Keras: Deep Learning for humans
 
 ![Keras logo](https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png)
 
