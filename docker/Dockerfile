@@ -45,6 +45,7 @@ RUN conda install -y python=${python_version} && \
       cntk-gpu && \
     conda install \
       bcolz \
+      gensim \
       h5py \
       matplotlib \
       mkl \
@@ -53,6 +54,7 @@ RUN conda install -y python=${python_version} && \
       notebook \
       Pillow \
       pandas \
+      praw \
       pydot \
       pygpu \
       pyyaml \
