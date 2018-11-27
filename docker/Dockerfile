@@ -43,6 +43,7 @@ RUN conda install -y python=${python_version} && \
       sklearn_pandas \
       tensorflow-gpu \
       cntk-gpu && \
+      praw \
     conda install \
       bcolz \
       gensim \
@@ -54,7 +55,6 @@ RUN conda install -y python=${python_version} && \
       notebook \
       Pillow \
       pandas \
-      praw \
       pydot \
       pygpu \
       pyyaml \
