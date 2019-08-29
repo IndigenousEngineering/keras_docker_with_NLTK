@@ -23,7 +23,7 @@ to use:
 
 `make notebook GPU=0 DATA=~/`
 
-all [neurodivergent ai](https://github.com/neurodivergent-ai 'https://github.com/neurodivergent-ai') notebooks use docker with nvidia gpu support & [tensorflow backend](https://keras.io/backend/ 'https://keras.io/backend/').
+all [indigenous.engineering](https://github.com/indigenousengineering 'https://github.com/indigenousengineering') notebooks use docker with nvidia gpu support & [tensorflow backend](https://keras.io/backend/ 'https://keras.io/backend/').
 
 ### for more information, see the original keras documentation below:
 
