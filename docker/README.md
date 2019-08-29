@@ -23,7 +23,7 @@ to use:
 
 `make notebook GPU=0 DATA=~/`
 
-all [indigenous.engineering](https://github.com/indigenousengineering 'https://github.com/indigenousengineering') notebooks use docker with nvidia gpu support & [tensorflow backend](https://keras.io/backend/ 'https://keras.io/backend/').
+all [IndigenousEngineering](https://github.com/indigenousengineering 'https://github.com/indigenousengineering') notebooks use docker with nvidia gpu support & [tensorflow backend](https://keras.io/backend/ 'https://keras.io/backend/').
 
 ### for more information, see the original keras documentation below:
 
