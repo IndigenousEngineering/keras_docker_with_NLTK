@@ -40,10 +40,10 @@ ARG python_version=3.6
 RUN conda install -y python=${python_version} && \
     pip install --upgrade pip && \
     pip install \
-      tweepy \
       sklearn_pandas \
       tensorflow-gpu \
       praw \
+      tweepy \
       cntk-gpu && \
     conda install \
       bcolz \
