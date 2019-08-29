@@ -42,12 +42,12 @@ RUN conda install -y python=${python_version} && \
     pip install \
       sklearn_pandas \
       tensorflow-gpu \
-      tweepy \
       praw \
       cntk-gpu && \
     conda install \
       bcolz \
       gensim \
+      tweepy \
       h5py \
       matplotlib \
       mkl \
