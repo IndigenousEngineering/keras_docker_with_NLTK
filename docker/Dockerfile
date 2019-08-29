@@ -42,8 +42,8 @@ RUN conda install -y python=${python_version} && \
     pip install \
       sklearn_pandas \
       tensorflow-gpu \
-      praw \
       tweepy \
+      praw \
       cntk-gpu && \
     conda install \
       bcolz \
