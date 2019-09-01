@@ -43,6 +43,7 @@ RUN conda install -y python=${python_version} && \
       sklearn_pandas \
       tensorflow-gpu \
       praw \
+      searchtweets \
       tweepy \
       cntk-gpu && \
     conda install \
