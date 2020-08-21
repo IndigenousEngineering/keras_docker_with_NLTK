@@ -1,4 +1,4 @@
-# neurodivergent keras with nltk
+# IndigenousEngineering keras with nltk
 
 the official keras docker image...but with [nltk](https://www.nltk.org/) & [gensim](https://radimrehurek.com/gensim/) for natural language processing with deep learning, plus [praw](https://praw.readthedocs.io/en/latest/index.html) for accessing the reddit api.
 
